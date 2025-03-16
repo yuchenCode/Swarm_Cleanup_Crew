@@ -1,0 +1,6 @@
+{
+  "name": "ScoreManager",
+  "type": "invisible",
+  "description": "An agent that tracks and displays the score",
+  "controller": "lib/score_manager.so"
+}

@@ -1,0 +1,31 @@
+{
+    "simulation": {
+        "arena_size": {
+            "width": 700,
+            "height": 400
+        }
+    },
+    "cleanup_bot": {
+        "count": 6,
+        "radius": 15,
+        "speed": 0.5,
+        "sensor_range": 120,
+        "repulsion_range": 40,
+        "repulsion_force": 300
+    },
+    "recycling_zone": {
+        "count": 3,
+        "width": 100,
+        "height": 100
+    },
+    "block": {
+        "initial_count": 15,
+        "size": 10,
+        "max_count": 30,
+        "spawn_interval": 5.0,
+        "spawn_probability": 0.7
+    },
+    "scoring": {
+        "points_per_block": 10
+    }
+}

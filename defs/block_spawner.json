@@ -1,0 +1,6 @@
+{
+  "name": "BlockSpawner",
+  "type": "invisible",
+  "description": "An agent that spawns blocks",
+  "controller": "lib/block_spawner.so"
+}

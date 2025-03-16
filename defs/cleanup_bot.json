@@ -1,0 +1,56 @@
+{
+  "name": "CleanupBot",
+  "type": "dynamic",
+  "description": "A robot that searches for blocks and brings them to recycling zones",
+  "shape": "omni",
+  "radius": 15,
+  "friction": {
+      "collision": 5,
+      "linear": 40,
+      "rotational": 600
+  },
+  "sensors": [
+      {
+          "type": "range",
+          "location": { "x": 0, "y": 0 },
+          "direction": 0
+      },
+      {
+          "type": "range",
+          "location": { "x": 0, "y": 0 },
+          "direction": 0.7853981633974483
+      },
+      {
+          "type": "range",
+          "location": { "x": 0, "y": 0 },
+          "direction": 1.5707963267948966
+      },
+      {
+          "type": "range",
+          "location": { "x": 0, "y": 0 },
+          "direction": 2.356194490192345
+      },
+      {
+          "type": "range",
+          "location": { "x": 0, "y": 0 },
+          "direction": 3.141592653589793
+      },
+      {
+          "type": "range",
+          "location": { "x": 0, "y": 0 },
+          "direction": 3.9269908169872414
+      },
+      {
+          "type": "range",
+          "location": { "x": 0, "y": 0 },
+          "direction": 4.71238898038469
+      },
+      {
+          "type": "range",
+          "location": { "x": 0, "y": 0 },
+          "direction": 5.497787143782138
+      }
+  ],
+  "mass": 1.0,
+  "controller": "lib/cleanup_bot.so"
+}

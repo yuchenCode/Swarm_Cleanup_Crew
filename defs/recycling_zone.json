@@ -1,0 +1,19 @@
+{
+  "name": "RecyclingZone",
+  "type": "static",
+  "description": "A zone where blocks can be recycled",
+  "shape": [
+      { "x": -50, "y": -50 },
+      { "x": 50, "y": -50 },
+      { "x": 50, "y": 50 },
+      { "x": -50, "y": 50 }
+  ],
+  "friction": {
+      "collision": 0,
+      "linear": 0,
+      "rotational": 0
+  },
+  "sensors": [],
+  "mass": 0,
+  "controller": "lib/recycling_zone.so"
+}

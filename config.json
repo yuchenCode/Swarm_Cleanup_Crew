@@ -1,0 +1,140 @@
+{
+    "name": "Swarm Cleanup Crew",
+    "ip": "0.0.0.0",
+    "port": 8765,
+    "buttons": [
+        {
+            "name": "reset",
+            "label": "Reset Simulation",
+            "style": { "background": "white", "border-color": "black" }
+        }
+    ],
+    "agents": [
+        {
+            "definition": "defs/cleanup_bot.json",
+            "style": { "fill": "blue", "stroke": "black" },
+            "position": {
+                "x": 100,
+                "y": 50,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/cleanup_bot.json",
+            "style": { "fill": "blue", "stroke": "black" },
+            "position": {
+                "x": 0,
+                "y": 50,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/cleanup_bot.json",
+            "style": { "fill": "blue", "stroke": "black" },
+            "position": {
+                "x": -100,
+                "y": 50,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/recycling_zone.json",
+            "style": { "fill": "green", "fill-opacity": "0.3", "stroke": "black", "stroke-width": "2" },
+            "position": {
+                "x": -200,
+                "y": -120,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/recycling_zone.json",
+            "style": { "fill": "blue", "fill-opacity": "0.3", "stroke": "black", "stroke-width": "2" },
+            "position": {
+                "x": 0,
+                "y": -120,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/recycling_zone.json",
+            "style": { "fill": "purple", "fill-opacity": "0.3", "stroke": "black", "stroke-width": "2" },
+            "position": {
+                "x": 200,
+                "y": -120,
+                "theta": 0
+            }
+        }
+    ],
+    "invisibles": [
+        {
+            "definition": "defs/block_spawner.json",
+            "rendered": false
+        },
+        {
+            "definition": "defs/score_manager.json",
+            "rendered": false
+        }
+    ],
+    "references": [
+        {
+            "definition": "defs/block.json",
+            "style": { "fill": "red", "stroke": "darkred" }
+        }
+    ],
+    "statics": [
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": -200 },
+                { "x": -350,  "y": 200 },
+                { "x": -340,  "y": 200 },
+                { "x": -340, "y": -200 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": 350, "y": -200 },
+                { "x": 350,  "y": 200 },
+                { "x": 340,  "y": 200 },
+                { "x": 340, "y": -200 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": 200 },
+                { "x": 350,  "y": 200 },
+                { "x": 350,  "y": 190 },
+                { "x": -350, "y": 190 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": -200 },
+                { "x": 350,  "y": -200 },
+                { "x": 350,  "y": -190 },
+                { "x": -350, "y": -190 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -200, "y": 0 },
+                { "x": -100,  "y": 0 },
+                { "x": -100,  "y": 10 },
+                { "x": -200, "y": 10 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": 100, "y": 0 },
+                { "x": 200,  "y": 0 },
+                { "x": 200,  "y": 10 },
+                { "x": 100, "y": 10 }
+            ]
+        }
+    ]
+}
