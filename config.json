@@ -63,22 +63,51 @@
                 "y": -120,
                 "theta": 0
             }
-        }
-    ],
-    "invisibles": [
+        },
         {
             "definition": "defs/block_spawner.json",
-            "rendered": false
+            "style": { "fill": "transparent", "stroke": "transparent" },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "theta": 0
+            }
         },
         {
             "definition": "defs/score_manager.json",
-            "rendered": false
-        }
-    ],
-    "references": [
+            "style": { "fill": "transparent", "stroke": "transparent" },
+            "position": {
+                "x": -320,
+                "y": -190,
+                "theta": 0
+            }
+        },
         {
             "definition": "defs/block.json",
-            "style": { "fill": "red", "stroke": "darkred" }
+            "style": { "fill": "red", "stroke": "darkred" },
+            "position": {
+                "x": 50,
+                "y": 0,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/block.json",
+            "style": { "fill": "red", "stroke": "darkred" },
+            "position": {
+                "x": -50,
+                "y": 0,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/block.json",
+            "style": { "fill": "red", "stroke": "darkred" },
+            "position": {
+                "x": 0,
+                "y": 50,
+                "theta": 0
+            }
         }
     ],
     "statics": [
